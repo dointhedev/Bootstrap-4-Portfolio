@@ -1,0 +1,50 @@
+#hero .navbar::before {
+    background-color: #0b6f5b;
+}
+
+#logo {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3.4rem;
+}
+
+.block .block__title h2 {
+    color: #057a85;
+}
+
+.block__title {
+    margin-bottom: 3rem !important;
+}
+
+h4 {
+    color: #0b6f5b;
+}
+
+.btn {
+    transition: .3s ease;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 1.4rem 1.6rem 1.3rem 1.6rem;
+    border: none;
+    outline: none !important;
+    cursor: pointer;
+    box-shadow: 0 0.15rem 0.3rem rgba(0, 0, 0, .2);
+}
+
+.btn-outline-secondary {
+    border-radius: .4rem !important;
+    outline: none !important;
+    box-shadow: inherit;
+    border: .2rem solid #227d6b;
+    color: #227d6b;
+}
+.btn-outline-secondary:hover {
+    background-color: #227d6b;
+    border: .2rem solid #227d6b;
+}
+
+
+@media (min-width: 10rem) and (max-width: 61.9375rem) {
+    #logo {
+        font-size: 2.7rem;
+    }
+}
