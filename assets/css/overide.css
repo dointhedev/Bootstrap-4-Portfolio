@@ -8,7 +8,8 @@
 }
 
 .block .block__title h2 {
-    color: #057a85;
+    color: #0b6f5b;
+  
 }
 
 .block__title {
@@ -16,7 +17,7 @@
 }
 
 h4 {
-    color: #0b6f5b;
+    color: #37959d;
 }
 
 .btn {
@@ -34,12 +35,21 @@ h4 {
     border-radius: .4rem !important;
     outline: none !important;
     box-shadow: inherit;
-    border: .2rem solid #227d6b;
-    color: #227d6b;
+    border: .2rem solid #227d6b !important;
+    color: #227d6b !important;
 }
 .btn-outline-secondary:hover {
-    background-color: #227d6b;
-    border: .2rem solid #227d6b;
+    background-color: #227d6b !important;
+    border: .2rem solid #227d6b !important;
+    color: #fff !important;
+}
+
+.ft-links:hover{
+color: #0b6f5b !important;
+text-decoration: underline;
+}
+.reveal:before{
+    background-color: #000 !important;
 }
 
 

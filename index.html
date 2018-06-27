@@ -5,9 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="avi-davis">
-
+    
+    <!--Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" />
     <!--Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- Bootstrap Material Design -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.5/css/mdb.min.css">
 
     <!--Fonts and Icons-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -132,7 +137,7 @@
 
             <section class="pb-0 block" id="specialties">
                 <div class="container">
-                    <div class="block__title">
+                    <div class="block__title text-center">
                         <h2 class="reveal">My Specialties</h2>
                     </div>
                     <!--end block-title-->
@@ -152,7 +157,8 @@
                                     </div>
                                     <!--end box__header-->
                                     <div class="box__content">
-                                        <p>Duis volutpat odio nec nulla imperdiet egestas. Nullam eu lobortis ipsum</p>
+                                        <p>I help businesses by leveraging web and mobile technologies to increase revenue, streamline
+                                            administrative tasks and improve their customer service.</p>
                                     </div>
                                     <!--end box__content-->
                                 </div>
@@ -174,7 +180,8 @@
                                     </div>
                                     <!--end box__header-->
                                     <div class="box__content">
-                                        <p>Duis volutpat odio nec nulla imperdiet egestas. Nullam eu lobortis ipsum</p>
+                                        <p>I improve or provide my clients the ability to sell, track and fulfill their orders
+                                            online all designed in a way to maximize sales.</p>
                                     </div>
                                     <!--end box__content-->
                                 </div>
@@ -196,7 +203,7 @@
                                     </div>
                                     <!--end box__header-->
                                     <div class="box__content">
-                                        <p>Duis volutpat odio nec nulla imperdiet egestas. Nullam eu lobortis ipsum</p>
+                                        <p>As a certified Scrum Master I take pride in providing incredible Agile project management in any project I do. </p>
                                     </div>
                                     <!--end box__content-->
                                 </div>
@@ -218,7 +225,7 @@
                                     </div>
                                     <!--end box__header-->
                                     <div class="box__content">
-                                        <p>Phasellus tincidunt metus vel ex pharetra sagittis. Maecenas at convallis dui</p>
+                                        <p>Utilizing custom or third party APIs can save costs and provide incredible flexibility when handling your data between your applications and services. </p>
                                     </div>
                                     <!--end box__content-->
                                 </div>
@@ -238,7 +245,7 @@
 
             <section class="pb-0 block" id="what-i-do">
                 <div class="container">
-                    <div class="block__title">
+                    <div class="block__title text-center">
                         <h2 class="reveal">What I Do</h2>
                     </div>
                     <!--end block-title-->
@@ -334,7 +341,7 @@
                 <!--end gallery-->
 
                 <div class="my-2 text-center">
-                    <div class="my-5 text-center">
+                    <div class="my-5 text-center d-none">
                         <a href="#">
                             <button type="button" class="btn btn-outline-secondary">Load More</button>
                         </a>
@@ -392,25 +399,23 @@
             <section class="pb-4 block skew-down-left skew-up-right" id="skills">
                 <div class="container">
                     <div class="block__wrapper">
-                        <div class="block__title">
-                            <h2 class="reveal">My Skills</h2>
+                        <div class="block__title text-center">
+                            <h2 class="reveal mb-0">My Skills</h2>
                         </div>
                         <!--end block-title-->
-
                         <div class="row">
-
+                            <canvas id="bar-chart" class="p-4 mb-5" width="800" height="550"></canvas>
+                            <!--end row-->
                         </div>
-                        <!--end row-->
+                        <!--end block__wrapper-->
                     </div>
-                    <!--end block__wrapper-->
-                </div>
-                <!--end container-->
-                <div class="background-wrapper" data-background-color="#eeeeee">
-                    <div class="background background--image opacity-5 background--repeat-repeat">
-                        <img src="assets/img/pattern-topo.png" alt="">
+                    <!--end container-->
+                    <div class="background-wrapper" data-background-color="#eeeeee">
+                        <div class="background background--image opacity-5 background--repeat-repeat">
+                            <img src="assets/img/pattern-topo.png" alt="">
+                        </div>
                     </div>
-                </div>
-                <!--end background-->
+                    <!--end background-->
             </section>
             <!--end #our-team.block-->
 
@@ -418,7 +423,7 @@
             <section class="pt-4 block" id="resume">
                 <div class="container">
                     <div class="block__wrapper">
-                        <div class="block__title">
+                        <div class="block__title text-center">
                             <h2 class="reveal">My Resume</h2>
                         </div>
                         <!--end block-title-->
@@ -440,136 +445,138 @@
                 <!--end container-->
             </section>
             <!--end #blog.block-->
-        </div>
-        <!--end content-->
+            </div>
+            <!--end content-->
 
-        <!--*********************************************************************************************************-->
-        <!--************ FOOTER *************************************************************************************-->
-        <!--*********************************************************************************************************-->
-        <footer id="footer" class="skew-up-right">
-            <div class="container">
-                <div class="block__wrapper">
-                    <div class="block__title" id="contact">
-                        <h2>Contact</h2>
-                    </div>
-                    <!--end block-title-->
-                    <div class="row">
-                        <div class="col-xl-5 col-lg-6 col-md-12 col-sm-12">
-                            <div class="row">
-                                <div class="col-sm-6 col-lg-12">
-                                    <h4>My Address</h4>
-                                    <address>
-                                            15600 Mulholland Dr, <br>
-                                            Los Angeles, CA 90077
-                                    </address>
-                                </div>
-                                <!--end col-sm-6 col-lg-12-->
-                                <div class="col-sm-6 col-lg-12">
-                                    <div class="py-4">
-                                        <figure>
-                                            <i class="fa fa-envelope width-20px"></i>
-                                            <a href="#" target="_blank"> avi@everythingavidavis.com</a>
-                                        </figure>
-                                        <figure>
+            <!--*********************************************************************************************************-->
+            <!--************ FOOTER *************************************************************************************-->
+            <!--*********************************************************************************************************-->
+            <footer id="footer" class="skew-up-right">
+                <div class="container">
+                    <div class="block__wrapper">
+                        <div class="block__title" id="contact">
+                            <h2>Contact</h2>
+                        </div>
+                        <!--end block-title-->
+                        <div class="row">
+                            <div class="col-xl-5 col-lg-6 col-md-12 col-sm-12">
+                                <div class="row">
+                                    <div class="col-sm-6 col-lg-12">
+                                        <h4>My Address</h4>
+                                        <address>
+                                            15600 Mulholland Dr,
+                                            <br> Los Angeles, CA 90077
+                                        </address>
+                                    </div>
+                                    <!--end col-sm-6 col-lg-12-->
+                                    <div class="col-sm-6 col-lg-12">
+                                        <div class="py-4">
+                                            <figure>
+                                                <i class="fa fa-envelope width-20px"></i>
+                                                <a href="mailto:avi@everythingavidavis.com" class="ft-links pl-1" target="_blank"> avi@everythingavidavis.com</a>
+                                            </figure>
+                                            <figure>
                                                 <i class="fa fa-phone width-20px"></i>
-                                                <a href="tel:+13105260294" target="_blank">310-526-0294</a>
-                                        </figure>
+                                                <a href="tel:+13105260294" class="ft-links" target="_blank">310-526-0294</a>
+                                            </figure>
 
-                                        
-                                        <figure>
-                                            <i class="fa fa-github width-20px"></i>
-                                            <a href="https://github.com/dointhedev" target="_blank"> Check Out My GitHub Repo's</a>
-                                        </figure>
+
+                                            <figure>
+                                                <i class="fa fa-github width-20px"></i>
+                                                <a href="https://github.com/dointhedev" class="ft-links" target="_blank"> Check Out My GitHub Repo's</a>
+                                            </figure>
+                                        </div>
+                                        <!--end py-4-->
                                     </div>
-                                    <!--end py-4-->
+                                    <!--end col-sm-6 col-lg-12-->
                                 </div>
-                                <!--end col-sm-6 col-lg-12-->
+                                <!--end row-->
                             </div>
-                            <!--end row-->
-                        </div>
-                        <!--end col-xl-5 col-lg-6 col-md-12 col-sm-12-->
-                        <div class="col-xl-7 col-lg-6 col-md-12 col-sm-12">
-                            <h4>Contact Form</h4>
+                            <!--end col-xl-5 col-lg-6 col-md-12 col-sm-12-->
+                            <div class="col-xl-7 col-lg-6 col-md-12 col-sm-12">
+                                <h4>Contact Form</h4>
 
-                            <form id="form-contact" method="post" class="form clearfix">
-                                <div class="row">
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="form-group">
-                                            <label for="form-contact-name">Your Name</label>
-                                            <input type="text" class="form-control" id="form-contact-name" name="name" placeholder="Your Name" required>
+                                <form id="form-contact" method="post" action="assets/php/email.php" class="form clearfix">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                <label for="form-contact-name">Your Name</label>
+                                                <input type="text" class="form-control" id="form-contact-name" name="name" placeholder="Your Name" required>
+                                            </div>
+                                            <!--end form-group -->
                                         </div>
-                                        <!--end form-group -->
-                                    </div>
-                                    <!--end col-md-6 col-sm-6 -->
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="form-group">
-                                            <label for="form-contact-email">Your Email</label>
-                                            <input type="email" class="form-control" id="form-contact-email" name="email" placeholder="Your Email" required>
+                                        <!--end col-md-6 col-sm-6 -->
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                <label for="form-contact-email">Your Email</label>
+                                                <input type="email" class="form-control" id="form-contact-email" name="email" placeholder="Your Email" required>
+                                            </div>
+                                            <!--end form-group -->
                                         </div>
-                                        <!--end form-group -->
+                                        <!--end col-md-6 col-sm-6 -->
                                     </div>
-                                    <!--end col-md-6 col-sm-6 -->
-                                </div>
-                                <!--end row -->
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <label for="form-contact-message">Your Message</label>
-                                            <textarea class="form-control" id="form-contact-message" rows="8" name="message" placeholder="Your Message" required></textarea>
+                                    <!--end row -->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="form-contact-message">Your Message</label>
+                                                <textarea class="form-control" id="form-contact-message" rows="8" name="message" placeholder="Your Message" required></textarea>
+                                            </div>
+                                            <!--end form-group -->
                                         </div>
-                                        <!--end form-group -->
+                                        <!--end col-md-12 -->
                                     </div>
-                                    <!--end col-md-12 -->
-                                </div>
-                                <!--end row -->
-                                <div class="form-group clearfix">
-                                    <button type="submit" class="btn pull-right btn-default" id="form-contact-submit">Send a Message</button>
-                                </div>
-                                <!--end form-group -->
-                                <div class="form-contact-status"></div>
-                            </form>
-                            <!--end form-contact -->
+                                    <!--end row -->
+                                    <div class="form-group clearfix">
+                                        <button type="submit" class="btn pull-right btn-default" id="form-contact-submit">Send a Message</button>
+                                    </div>
+                                    <!--end form-group -->
+                                    <div class="form-contact-status"></div>
+                                </form>
+                                <!--end form-contact -->
+                            </div>
+                            <!--end col-xl-7-->
                         </div>
-                        <!--end col-xl-7-->
+                        <!--end row-->
                     </div>
-                    <!--end row-->
+                    <!--end block__wrapper-->
                 </div>
-                <!--end block__wrapper-->
-            </div>
-            <!--end container-->
+                <!--end container-->
 
-            <hr class="hr-white opacity-10">
-            <!--end hr-->
+                <hr class="hr-white opacity-10">
+                <!--end hr-->
 
-            <div class="container">
-                <span>(C) Copyright 2018, All Rights Reserved</span>
-            </div>
-            <!--end container-->
+                <div class="container">
+                    <span>(C) Copyright 2018, All Rights Reserved</span>
+                </div>
+                <!--end container-->
 
-            <div class="background-wrapper" data-background-color="#000000">
-                <div class="background background--particles"></div>
-            </div>
-            <!--end background-->
+                <div class="background-wrapper" data-background-color="#000000">
+                    <div class="background background--particles"></div>
+                </div>
+                <!--end background-->
 
-        </footer>
-        <!--end footer-->
-    </div>
-    <!--end page-->
+            </footer>
+            <!--end footer-->
+        </div>
+        <!--end page-->
 
-    <!-- jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Bootstrap core JavaScript-->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
-
-    <script src="assets/js/isInViewport.jquery.js"></script>
-    <script src="assets/js/jquery.particleground.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/pace.min.js"></script>
-    <script src="assets/js/jquery.validate.min.js"></script>
-    <script src="assets/js/jquery-validate.bootstrap-tooltip.min.js"></script>
-    <script src="assets/js/morphext.min.js"></script>
-    <script src="assets/js/custom.js"></script>
+        <!-- jQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Bootstrap core JavaScript-->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+        <!-- Chart JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+        <script src="assets/js/isInViewport.jquery.js"></script>
+        <script src="assets/js/jquery.particleground.min.js"></script>
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/pace.min.js"></script>
+        <script src="assets/js/jquery.validate.min.js"></script>
+        <script src="assets/js/jquery-validate.bootstrap-tooltip.min.js"></script>
+        <script src="assets/js/morphext.min.js"></script>
+        <script src="assets/js/custom.js"></script>
+        <script src="assets/js/chart.js"></script>
 
 </body>
 
